@@ -41,7 +41,7 @@ def kontakt_hinzufuegen():
     kontakte.append(kontakt)
     kontakte_speichern()
 
-    print("Kontakt erfolgreich hinzugefügt!")
+    print("Kontakt wurde erfolgreich hinzugefügt!")
 
 
 def kontakte_anzeigen():
