@@ -43,7 +43,6 @@ def kontakt_hinzufuegen():
 
     print("Kontakt wurde erfolgreich hinzugefügt!")
 
-
 def kontakte_anzeigen():
     if not kontakte:
         print("Keine Kontakte vorhanden!")
