@@ -7,6 +7,7 @@ def kontakte_speichern():
         json.dump(kontakte, datei)
 
 
+
 def kontakte_laden():
     try:
         with open("kontakte.json", "r") as datei:
