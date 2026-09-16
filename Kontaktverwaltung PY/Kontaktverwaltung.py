@@ -24,7 +24,7 @@ def kontakt_hinzufuegen():
 
     if name == "":
         print("Der Name darf nicht leer sein!")
-        return
+        return   # hier beendet return die Funktion
 
     if email == "":
             print("Die E-Mail darf nicht leer sein!")
